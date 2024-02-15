@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { Darkmode } from "./Darkmode";
+
 
 export default function Navbar() {
     return (
@@ -6,9 +8,8 @@ export default function Navbar() {
             <Link href="/" className="font-bold text-3xl">
                 Guk<span className="text-blue-500">Blog</span>
             </Link>
-            <div>
-                <h1>nth2</h1>
-            </div>
+            
+            <Darkmode/>
         </nav>
     )
 }

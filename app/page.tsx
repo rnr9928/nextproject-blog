@@ -1,10 +1,18 @@
-import Image from "next/image";
-import Navbar from "./components/Navbar";
+async function getData() {
+  const query = `
+  *[_type == 'blog'] | order(_createdAt desc) {
+    title,
+      des,
+      "currentUrl" : url.current
+  }
+  `
+}
+
 
 export default function Home() {
   return (
     <div>
-      <Navbar/>
+      
       <h1>Guk page</h1>
     </div>
   );
