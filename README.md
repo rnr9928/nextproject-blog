@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+## Next - Blog
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+stack: Typescript,NextJs,tailwind,Sanity
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+sanity -> headless Cms 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## headless cms 란?
+Headless 라는 단어에서 head는 보여지는 프론트엔드를 의미
+즉 headless cms는 프론트가 없는 cms를 말한다
 
-## Learn More
+# 그렇다면 headless cms로 관리되는 데이터를 어떻게 보여줄까?
+headless cms에서는 프론트에 사용할 수 있는 API를 제공한다
 
-To learn more about Next.js, take a look at the following resources:
+headless cms 백엔드 저장소이고 프론트에서는 api를 통해 가져와서 사용하기만 하면 된다
+(별도의 인프라 설정이나 배포 과정없이 쉽게 api로 원하는 데이터를 불러올 수 있다)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![화면 캡처 2024-02-20 223420](https://github.com/rnr9928/nextproject-blog/assets/97073355/b1d080a6-d8ed-4d0e-9b2c-958d6e369adf)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+sanity studio를 이용하여 컨텐츠를 편집하고 데이터를 변경 할 수 있다
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
