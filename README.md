@@ -22,3 +22,12 @@ headless cms 백엔드 저장소이고 프론트에서는 api를 통해 가져�
 sanity studio를 이용하여 컨텐츠를 편집하고 데이터를 변경 할 수 있다
 
 
+
+# preview
+![화면 캡처 2024-02-20 230309](https://github.com/rnr9928/nextproject-blog/assets/97073355/1c9a6600-e066-438f-9c18-addf4a058afd)
+
+
+![화면 캡처 2024-02-20 230401](https://github.com/rnr9928/nextproject-blog/assets/97073355/4aca9247-e1de-4546-baa5-6b0b0539ea51)
+
+
+
